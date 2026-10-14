@@ -1,0 +1,4 @@
+Linea 1: Los comandos de Linux permiten gestionar el sistema de manera eficiente.
+Linea 2: El comando mkdir crea directorios, y con -p crea subdirectorios anidados.
+Linea 3: El comando echo redirige texto a archivos usando > (sobreescribir) o >> (agregar).
+Linea 4: La redireccion de contenido es una herramienta poderosa en Linux.

@@ -1,0 +1,20 @@
+    1  cd ~
+    2  mkdir -p proyecto_comandos/documentos proyecto_comandos/imagenes proyecto_comandos/scripts
+    3  ls -la proyecto_comandos/
+    4  echo 'Linea 1: Los comandos de Linux permiten gestionar el sistema de manera eficiente.' > proyecto_comandos/documentos/notas.txt
+    5  echo 'Linea 2: El comando mkdir crea directorios, y con -p crea subdirectorios anidados.' >> proyecto_comandos/documentos/notas.txt
+    6  echo 'Linea 3: El comando echo redirige texto a archivos usando > (sobreescribir) o >> (agregar).' >> proyecto_comandos/documentos/notas.txt
+    7  cat proyecto_comandos/documentos/notas.txt
+    8  cp proyecto_comandos/documentos/notas.txt proyecto_comandos/scripts/backup_notas.txt
+    9  ls -la proyecto_comandos/scripts/
+   10  mv proyecto_comandos/scripts/backup_notas.txt proyecto_comandos/imagenes/backup_notas.txt
+   11  ls -la proyecto_comandos/imagenes/
+   12  touch proyecto_comandos/documentos/resumen.txt
+   13  cat proyecto_comandos/documentos/notas.txt > proyecto_comandos/documentos/resumen.txt
+   14  echo 'Linea 4: La redireccion de contenido es una herramienta poderosa en Linux.' >> proyecto_comandos/documentos/resumen.txt
+   15  cat proyecto_comandos/documentos/resumen.txt
+   16  rm proyecto_comandos/imagenes/backup_notas.txt
+   17  ls -la proyecto_comandos/imagenes/
+   18  rmdir proyecto_comandos/imagenes
+   19  ls -la proyecto_comandos/
+   20  history | tail -50 > ~/proyecto_comandos/tarea-s1-pablo_mora.txt
